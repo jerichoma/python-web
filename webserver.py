@@ -6,7 +6,7 @@ class helloHandler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('content-type', 'text/html') 
         self.end_headers() 
-        self.wfile.write('Hello Jericho!'.encode()) 
+        self.wfile.write('Hello Test!'.encode()) 
 
 
 
