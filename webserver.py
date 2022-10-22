@@ -6,7 +6,7 @@ class helloHandler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('content-type', 'text/html') 
         self.end_headers() 
-        self.wfile.write('Hello Webhook Test!'.encode()) 
+        self.wfile.write('Hello Webhook Testing!'.encode()) 
 
 
 
