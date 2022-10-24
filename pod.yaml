@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: webserver
+  labels:
+    tier: front-end
+spec:
+  containers:
+  - name: webserver
+    image: jerichomb/webserver
+    ports:
+    - containerPort: 80
+
